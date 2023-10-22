@@ -1,0 +1,106 @@
+body {
+    background-color: #f0f0f0;
+}
+
+.navbar {
+    border-bottom: 2px solid #2196F3;
+}
+
+.movie-container {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.movie-list {
+    border-right: 1px solid #ccc;
+    padding-right: 20px;
+}
+
+.movie-details {
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.card {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.card-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.card-text {
+    font-size: 18px;
+    color: #555;
+}
+
+.card-text small {
+    color: #777;
+}
+
+.card-img-top {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.movie-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.movie-list ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.movie-list ul li:hover {
+    background-color: #f0f0f0;
+}
+
+.navbar {
+    background-color: #ff6b6b; 
+}
+.navbar-brand, .nav-link {
+    font-family: 'Poppins', sans-serif;
+    color: #fff; 
+}
+.navbar-toggler-icon {
+    background-color: #fff; 
+}
+.navbar-toggler {
+    border-color: #fff; 
+}
+
+.form-control {
+    background-color: #f8f9fa; 
+    color: #333; 
+}
+.btn-success {
+    background-color: #28a745; 
+    border-color: #28a745;
+}
+.btn-success:hover {
+    background-color: limegreen; 
+    border-color: #218838;
+}
+#sold-out-button {
+    background-color: #ff0000; 
+    color: #fff; 
+    border: none; 
+}
+#sold-out-button:hover {
+    background-color: darkred;
+}
